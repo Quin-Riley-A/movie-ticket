@@ -30,3 +30,37 @@ Objects:
         returns age group and scales ticket price
       ticket.checkTime(pulls form selection)    
         returns matinee/evening and scales ticket price
+
+
+//
+Movies on screen
+
+user click movie
+
+Hide other movies, show dropdown menu asking for number of tickets and a next button (save movie name as part of order object)
+
+user enters number of tickets and next button (save number of tickets as part of order object)
+
+hide dropdown menu and next button 
+
+show two new dropdown menus asking for how many children and how many seniors, and another next button (subtract number of tickets by children and seniors, save two new varibles as part of order)
+
+hide the dropdown menus and next button
+
+apply protype method that multiplies number of tickets by ticketprice, generates new var totalprice
+
+apply prototype that subtracts number of children * 25% of ticketprice from totalprice
+ 
+apply prototype that subracts numbre of seniors * 50% of ticketprice from totalprice
+
+Show dropdown menu that lists totalprice
+
+**Describe**
+movieChoice
+*It will return the name of a singly selected movie*
+**Code:**
+```javascript
+movieChoice(button.id);
+```
+**Expected Output**
+"Morbius"
